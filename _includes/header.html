@@ -1,0 +1,28 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    {% include theme-toggle.html %}
+
+    <a href="{{ '/' | relative_url }}" class="site-header__logo">
+      {% include brand-wordmark.html %}
+    </a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+      <a href="{{ '/' | relative_url }}" class="nav__link{% if page.url == '/' %} nav__link--active{% endif %}">Home</a>
+      <a href="{{ '/about/' | relative_url }}" class="nav__link{% if page.url contains '/about' %} nav__link--active{% endif %}">About</a>
+      <a href="{{ '/code-of-conduct/' | relative_url }}" class="nav__link{% if page.url contains '/code-of-conduct' %} nav__link--active{% endif %}">Code of Conduct</a>
+      {% if site.conference.schedule_visible %}
+      <a href="{{ site.conference.agenda_url | relative_url }}" class="nav__link{% if page.url contains '/schedule' %} nav__link--active{% endif %}">Schedule</a>
+      {% endif %}
+      <a href="{{ '/archives/' | relative_url }}" class="nav__link{% if page.url contains '/archives' %} nav__link--active{% endif %}">Archives</a>
+      <a href="{{ '/donations/' | relative_url }}" class="nav__link{% if page.url contains '/donations' %} nav__link--active{% endif %}">Donate</a>
+      <a href="{{ '/contact/' | relative_url }}" class="nav__link{% if page.url contains '/contact' %} nav__link--active{% endif %}">Contact</a>
+    </nav>
+  </div>
+</header>

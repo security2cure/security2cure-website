@@ -1,0 +1,110 @@
+{% assign schedule = include.schedule %}
+{% assign filter_tags = "admin,keynote,technical,personal,break" | split: "," %}
+
+<div class="schedule">
+
+  {% for track in schedule.tracks %}
+
+  <div class="schedule__track">
+
+    <h3 class="schedule__track-title">{{ track.name }}</h3>
+
+    {% assign tagged_count = 0 %}
+    {% for item in track.sessions %}
+      {% if item.tag %}
+        {% assign tagged_count = tagged_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if tagged_count > 0 %}
+    <div class="schedule__filters" role="group" aria-label="Filter sessions by type">
+      <button type="button" class="schedule__filter schedule__filter--all is-active" data-schedule-filter="all" aria-pressed="true">All</button>
+      {% for tag in filter_tags %}
+        {% assign tag_count = 0 %}
+        {% for item in track.sessions %}
+          {% if item.tag == tag %}
+            {% assign tag_count = tag_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+        {% if tag_count > 0 %}
+      <button type="button" class="schedule__filter schedule__filter--{{ tag }}" data-schedule-filter="{{ tag }}" aria-pressed="false">{{ tag }}</button>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% for item in track.sessions %}
+
+    <div class="schedule__item"{% if item.tag %} data-tag="{{ item.tag }}"{% endif %}>
+
+      <div class="schedule__time">{{ item.time }}</div>
+
+      <div class="schedule__details">
+
+        <div class="schedule__title">{{ item.title }}</div>
+
+        {% if item.speaker_id %}
+
+          {% assign speaker = site.data.speakers | where: "id", item.speaker_id | first %}
+
+          {% if speaker %}
+
+          <div class="schedule__speaker">
+
+            <button
+
+              type="button"
+
+              class="schedule__speaker-btn"
+
+              data-speaker-modal="{{ item.speaker_id }}"
+
+              aria-haspopup="dialog"
+
+              aria-controls="speaker-modal-{{ item.speaker_id }}"
+
+            >
+
+              {{ speaker.name }}
+
+            </button>
+
+          </div>
+
+          {% endif %}
+
+        {% elsif item.speaker %}
+
+        <div class="schedule__speaker">
+
+          <span class="schedule__speaker-label">{{ item.speaker }}</span>
+
+        </div>
+
+        {% endif %}
+
+        {% if item.description %}
+
+        <p class="schedule__description">{{ item.description }}</p>
+
+        {% endif %}
+
+        {% if item.tag %}
+
+        <span class="schedule__tag schedule__tag--{{ item.tag }}">{{ item.tag }}</span>
+
+        {% endif %}
+
+      </div>
+
+    </div>
+
+    {% endfor %}
+
+  </div>
+
+  {% endfor %}
+
+</div>
+
+{% include schedule-speaker-modals.html %}

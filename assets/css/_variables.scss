@@ -1,0 +1,45 @@
+@import "theme";
+
+// Design tokens (non-theme)
+$font-sans: "Inter", system-ui, -apple-system, sans-serif;
+$font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+$color-accent: #06b6d4;
+$color-accent-hover: #22d3ee;
+$color-warm: #f97316;
+$color-warm-hover: #fb923c;
+$color-brand-blue: #004aff;
+$color-brand-cyan: #009cff;
+$color-brand-pink: #ff00aa;
+$color-success: #34d399;
+$color-purple: #a855f7;
+
+// Semantic colors (theme-aware)
+$color-bg: var(--color-bg);
+$color-bg-elevated: var(--color-bg-elevated);
+$color-bg-card: var(--color-bg-card);
+$color-border: var(--color-border);
+$color-text: var(--color-text);
+$color-text-muted: var(--color-text-muted);
+$color-surface-hover: var(--color-surface-hover);
+$color-surface-hover-strong: var(--color-surface-hover-strong);
+$color-header-backdrop: var(--color-header-backdrop);
+$color-on-accent: var(--color-on-accent);
+$color-hero-title-start: var(--color-hero-title-start);
+$color-overlay: var(--color-overlay);
+$color-selection-bg: var(--color-selection-bg);
+$color-selection-fg: var(--color-selection-fg);
+$color-focus-ring: var(--color-focus-ring);
+
+$shadow-sm: var(--shadow-sm);
+$shadow-md: var(--shadow-md);
+$shadow-glow: var(--shadow-glow);
+$shadow-modal: var(--shadow-modal);
+
+$radius-sm: 0.5rem;
+$radius-md: 0.75rem;
+$radius-lg: 1rem;
+$radius-xl: 1.5rem;
+
+$max-width: 1200px;
+$header-height: 4.5rem;

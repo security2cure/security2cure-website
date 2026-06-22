@@ -1,0 +1,159 @@
+quadrants:
+  - id: plan
+    title: Plan
+    intro: "Plan and prepare for worst case scenario. Regardless of age, here are some things to consider:"
+    align: left
+    items:
+      - "Safely document your digital life: accounts and passwords"
+      - "Arrange insurances: Life, Health, Income Protection"
+      - Document and understand family medical history
+      - Arrange a last will and testament
+    detail:
+      subtitle: Prepare before the incident, because life does not come with a runbook
+      paragraphs:
+        - >-
+          In security operations we plan for breaches, outages, and worst-case scenarios long before
+          they happen. The same discipline applies to your health. A serious diagnosis can arrive without
+          warning, and the people around you should not have to reverse-engineer your life while coping
+          with crisis.
+        - >-
+          Security2Cure exists because our community has seen colleagues face cancer mid-career, often
+          while carrying sole knowledge of critical systems, with no documented handover for their
+          families or teams. Planning is an act of care for the people who depend on you, at work and at home.
+      sections:
+        - heading: What to put in place
+          body: >-
+            Document accounts, credentials, and critical assets using a password manager with emergency
+            access. Review life, health, and income-protection insurance so treatment or time away from
+            work does not become a financial catastrophe. Capture family medical history; many cancers
+            have hereditary links that change screening timelines. Arrange a will and consider advance care
+            directives so your wishes are clear.
+        - heading: Why this fits our mission
+          body: >-
+            We teach threat modelling and business continuity every day. Applying that mindset to personal
+            health removes stigma from difficult conversations and helps our industry lead by example,
+            technically prepared and humanly responsible.
+      takeaways:
+        - Treat personal planning with the same seriousness as an incident-response playbook.
+        - Reduces burden on partners, teams, and family if the worst happens.
+        - Small steps now prevent painful scrambling later.
+
+  - id: prevent
+    title: Prevent
+    intro: "Prevention is better than cure. It may reduce severity and improve your recovery:"
+    align: right
+    items:
+      - Practice meditation, mindfulness, and relaxation
+      - Stay up to date with vaccinations
+      - Maintain a healthy diet
+      - Routinely exercise and sleep
+      - Reduce alcohol consumption
+      - Avoid smoking and vaping
+    detail:
+      subtitle: Reduce your exposure surface, for systems and for yourself
+      paragraphs:
+        - >-
+          We spend careers hardening endpoints, patching vulnerabilities, and closing attack paths.
+          Prevention in health works the same way: lowering risk before disease takes hold can reduce
+          severity, widen treatment options, and improve recovery.
+        - >-
+          Cyber security culture often glorifies long hours, high stress, and coping through caffeine and
+          alcohol. That culture takes a toll. Security2Cure encourages honest conversation about how
+          our work habits affect long-term wellbeing, because the community cannot support others if
+          we burn ourselves out.
+      sections:
+        - heading: Habits that make a difference
+          body: >-
+            Evidence-based prevention includes maintaining a balanced diet, regular exercise, consistent
+            sleep, and stress management through mindfulness or relaxation. Stay current with vaccinations,
+            including HPV and hepatitis vaccines linked to cancer prevention. Reduce alcohol consumption
+            and avoid smoking and vaping; both are established carcinogens. These are not moral lectures;
+            they are risk-reduction controls, the health equivalent of patching known CVEs.
+        - heading: Why this fits our mission
+          body: >-
+            Conference medical sessions and personal narratives show that prevention and early lifestyle
+            choices matter. We want attendees to leave with practical habits, not just awareness, the
+            same way a good security programme changes behaviour, not only policy.
+      takeaways:
+        - Prevention lowers probability and impact, in security and in health.
+        - Sustainable work habits protect you and the teams relying on you.
+        - Small, consistent changes outperform heroic fixes after something breaks.
+
+  - id: detect
+    title: Detect
+    intro: "Any SOC will ensure they are covering all their bases, so should you:"
+    align: left
+    items:
+      - Regularly get skin checks
+      - Book annual health checks
+      - Monitor your body for changes
+      - Arrange mammogram and cervical checks
+      - Arrange prostate (PSA) checks
+      - Arrange bowel checks
+    detail:
+      subtitle: You cannot respond to what you never logged
+      paragraphs:
+        - >-
+          A SOC without monitoring is flying blind. Your body sends signals too: changes in moles, unexplained
+          weight loss, persistent fatigue, new lumps, or blood where there should not be. Ignoring anomalies
+          because you are “too busy with a sprint” is the human equivalent of muting critical alerts.
+        - >-
+          Cancer outcomes improve dramatically when disease is caught early. Screening programmes exist for
+          good reason: they find problems before symptoms become crises. Security2Cure talks openly about
+          screening so our community normalises check-ups the way we normalise log review.
+      sections:
+        - heading: Coverage you should consider
+          body: >-
+            Schedule regular skin checks and annual health reviews with your GP. Know which screenings
+            apply to your age and sex: mammograms, cervical screening, prostate (PSA) tests, and bowel
+            screening. Track what is normal for you so new symptoms stand out. If something feels off for
+            more than a couple of weeks, treat it like an alert worth investigating, not noise to suppress.
+        - heading: Why this fits our mission
+          body: >-
+            Medical professionals at our events provide evidence-based guidance on detection. We bridge
+            technical and personal worlds so attendees understand that early detection is not weakness;
+            it is mature risk management.
+      takeaways:
+        - Baseline what is normal; investigate deviations early.
+        - Screening is scheduled threat hunting for your body.
+        - Early detection saves lives. Full stop.
+
+  - id: respond
+    title: Respond
+    intro: "When something goes wrong, ensure you get the support you need:"
+    align: right
+    items:
+      - Seek medical advice
+      - Practice self-care
+      - Acknowledge emotions
+      - Connect with resources
+      - Consider support groups or counselling
+    detail:
+      subtitle: No one should run incident response alone
+      paragraphs:
+        - >-
+          When a major incident hits, we activate response teams, call experts, and communicate openly.
+          A cancer diagnosis, or supporting someone through one, is a life incident of the highest
+          severity. Trying to handle it solo, in silence, leads to the same outcomes as skipping escalation:
+          worse damage, longer recovery, and isolation.
+        - >-
+          Security2Cure was built by people who have lived this. Our conference creates space for peers
+          to share stories, ask questions, and find community. Responding well means using every resource
+          available: medical, emotional, and social.
+      sections:
+        - heading: How to respond well
+          body: >-
+            Seek medical advice promptly and follow qualified guidance. Practice self-care: rest, nutrition,
+            and boundaries at work are not optional during treatment or caregiving. Acknowledge emotions;
+            fear, anger, and grief are normal responses, not failures. Connect with employee assistance
+            programmes, cancer councils, support groups, or counselling. Lean on your network the way you
+            would mobilise a response team.
+        - heading: Why this fits our mission
+          body: >-
+            We raise awareness and funds, but equally we reduce isolation in a industry that often rewards
+            stoicism. Respond means accepting help: from clinicians, from charity resources, and from
+            colleagues who understand because they have been there too.
+      takeaways:
+        - Escalate early; involve specialists and your support network.
+        - Self-care and mental health support are part of response, not extras.
+        - The Security2Cure community exists so no one faces this alone.

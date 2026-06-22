@@ -1,0 +1,36 @@
+{% assign gradient_id = include.tier | default: 'sponsor' | slugify %}
+<a
+  href="{{ '/contact/' | relative_url }}"
+  class="sponsors__wanted"
+  aria-label="Become a {{ include.tier | default: 'sponsor' }} — contact us"
+>
+  <svg
+    class="sponsors__wanted-graphic"
+    width="300"
+    height="196"
+    viewBox="0 0 300 196"
+    role="img"
+    aria-hidden="true"
+  >
+    <defs>
+      <linearGradient id="sponsor-wanted-header-{{ gradient_id }}" x1="0" y1="0" x2="1" y2="1">
+        <stop class="sponsors__wanted-graphic__gradient-start" offset="0%" />
+        <stop class="sponsors__wanted-graphic__gradient-end" offset="100%" />
+      </linearGradient>
+    </defs>
+
+    <rect class="sponsors__wanted-graphic__frame" x="8" y="8" width="284" height="180" rx="14" />
+    <rect class="sponsors__wanted-graphic__header" x="8" y="8" width="284" height="44" rx="14" fill="url(#sponsor-wanted-header-{{ gradient_id }})" />
+    <rect class="sponsors__wanted-graphic__header-cover" x="8" y="36" width="284" height="16" fill="url(#sponsor-wanted-header-{{ gradient_id }})" />
+    <text class="sponsors__wanted-graphic__header-label" x="150" y="34" text-anchor="middle">SPONSORSHIP</text>
+
+    <circle class="sponsors__wanted-graphic__accent" cx="258" cy="30" r="15" />
+    <text class="sponsors__wanted-graphic__plus" x="258" y="36" text-anchor="middle">+</text>
+
+    <rect class="sponsors__wanted-graphic__logo-slot" x="54" y="76" width="192" height="60" rx="10" />
+    <text class="sponsors__wanted-graphic__logo-label" x="150" y="111" text-anchor="middle">YOUR LOGO HERE</text>
+
+    <text class="sponsors__wanted-graphic__headline" x="150" y="160" text-anchor="middle">We Want You!</text>
+    <text class="sponsors__wanted-graphic__cta" x="150" y="180" text-anchor="middle">Get in touch →</text>
+  </svg>
+</a>

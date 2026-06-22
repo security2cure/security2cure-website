@@ -1,0 +1,113 @@
+schedule:
+  tracks:
+    - name: "Brisbane, 11 October 2024"
+      sessions:
+        - time: "09:00"
+          title: "Arrival and Coffee"
+          description: "Level 27, 80 Ann St, Brisbane"
+          tag: break
+        - time: "09:30"
+          title: "Acknowledgement of Country and Housekeeping"
+          tag: admin
+        - time: "09:45"
+          title: "Keynote: CISO - Suncorp"
+          speaker: "Keith Howard"
+          description: "Life of a CISO – Lessons Learnt. Keith Howard was appointed Executive General Manager, Cyber Security & Risk in February 2024, leading the Cyber Security and Risk team for the Group, and is responsible for keeping the Group and its customer information safe and secure. Prior to joining Suncorp, Keith held key senior roles at Commonwealth Bank, including Group CISO, CIO Product & Marketing, General Manager Customer Engagement Platform, where he led large cross-functional teams delivering transformational change, such as the successful SAP upgrade, and delivering powerful customer experiences using machine learning. Keith has also delivered technology transformation programmes and managed global teams across multiple industries including petroleum, transport, and software, having lived in both the UK and Asia prior to moving to Australia."
+          tag: keynote
+        - time: "10:30"
+          title: "Collaboratively Caring and Securely Sharing Information That Matters"
+          speaker: "Dave Matthews"
+          description: "During his presentation, Dave will guide us through: The concepts of sharing intelligence, how it can help you, as well as others - When we might want to look at intelligence sharing as an option - Common blockers stopping us from sharing - A method to make the whole process easier - Examples and use cases."
+          tag: technical
+        - time: "11:00"
+          title: "Morning Tea"
+          tag: break
+        - time: "11:30"
+          title: "Sabina Janstrom"
+          speaker: "Sabina Janstrom"
+          description: "Sabina Janstrom has held various IT leadership roles in companies such as Lactalis Australia, Dyno Nobel, New Hope Group, Fujitsu Australia Limited, and more. With a background in project management and technical pre-sales consulting, Sabina has a strong track record of implementing technology strategies and driving digital transformations."
+          tag: technical
+        - time: "12:00"
+          title: "Returning to work in Cyber after intense cancer treatment"
+          speaker: "Adam Stevens"
+          description: "If you have ever come back to a project after one or two months, you would know it is very hard to pick up right where you left off. Context you once had has faded in memory, and the domain knowledge is covered in rust. Adam took close to 12 months away from work due to his highly intense leukaemia treatment. This meant coming back to a life he had not thought about for a year, with the addition of vast number of physical and mental side effects of cancer treatment. This presentation documents Adam's recovery over the last year, with a focus on his career as a Security Analyst in Suncorp's Threat Management team. Adam Stevens is a lightly seasoned analyst with Suncorp's Threat Management team. He joined the organisation in early 2022 and quickly made an impact. Unfortunately, a few months later, Adam faced a personal challenge when he was diagnosed with Leukaemia. Determined to overcome it, he took a year off to undergo intensive chemotherapy. In May 2023, Adam triumphantly returned to his full-time position at Suncorp as a cancer-free man. Adam's expertise lies in the intersection of SOAR (Security Orchestration, Automation, and Response) and security engineering. He's passionate about enhancing threat detection and incident response processes. When he's not immersed in cybersecurity, Adam enjoys hitting the gym, programming, 3D modelling/printing, and cherishing quality time with family and friends."
+          tag: personal
+        - time: "12:30"
+          title: "Lunch"
+          tag: break
+        - time: "13:30"
+          title: "Pending Final Approval"
+          speaker: "Pending"
+          description: "Pending"
+          tag: technical
+        - time: "14:00"
+          title: "Observations of a Russian Corporate Espionage Group"
+          speaker: "Ben May & Molly Day"
+          description: "The presentation explores recent observations from activity focused on Australian interests related to the Russian Corporate Espionage Group. Molly Day is a CTI professional experienced in developing organisations insider threat and threat intelligence capabilities, tracking threat actors, gathering intelligence, and conducting investigations. She has worked with organisations across a range of industries, including large government agencies, critical infrastructure, financial services, education, healthcare, and more. Molly also volunteers as a guest lecturer across several Australian universities and is a mentor for the Australian Women in Security Network (AWSN). Ben was previously the Threat Hunting Manager at SEEK. Before SEEK Ben worked in the Energy Sector within the Cyber Threat Operations space for approximately 14 years, from analyst-level operations to building and leading mature threat detection, intelligence, and incident response functions."
+          tag: technical
+        - time: "14:30"
+          title: "Afternoon Tea"
+          tag: break
+        - time: "15:00"
+          title: "Round Table - Cancer"
+          speaker: "Industry Panel"
+          description: "A number of security professionals will discuss their journey with cancer and how it has affected their lives and how they have maintained their career."
+          tag: personal
+        - time: "16:00"
+          title: "Post Conference Networking Function"
+          tag: break
+    - name: "Sydney, 23 August 2024"
+      sessions:
+        - time: "09:00"
+          title: "Arrival and Coffee"
+          description: "10 Shelley St, Barangaroo, Sydney"
+          tag: break
+        - time: "09:30"
+          title: "Acknowledgement of Country and Housekeeping"
+          tag: admin
+        - time: "09:45"
+          title: "Keynote: CISO - Suncorp"
+          speaker: "Keith Howard"
+          description: "Life of a CISO – Lessons Learnt. Keith Howard was appointed Executive General Manager, Cyber Security & Risk in February 2024, leading the Cyber Security and Risk team for the Group, and is responsible for keeping the Group and its customer information safe and secure. Prior to joining Suncorp, Keith held key senior roles at Commonwealth Bank, including Group CISO, CIO Product & Marketing, General Manager Customer Engagement Platform, where he led large cross-functional teams delivering transformational change, such as the successful SAP upgrade, and delivering powerful customer experiences using machine learning. Keith has also delivered technology transformation programmes and managed global teams across multiple industries including petroleum, transport, and software, having lived in both the UK and Asia prior to moving to Australia."
+          tag: keynote
+        - time: "10:30"
+          title: "Pending External Approval"
+          speaker: "Pending"
+          tag: technical
+        - time: "11:00"
+          title: "Morning Tea"
+          tag: break
+        - time: "11:30"
+          title: "Combatting Burnout in Cyber Security"
+          speaker: "Jasmina Zito & Bianca Forbes"
+          description: "In recent years, we've seen an increase in corporate webinars, panel discussions and resources about combatting burnout and achieving a healthy work-life balance. Rightly so. Working in general, but particularly in this industry, is incredibly stressful. But what do we do when yoga or mindfulness just doesn't cut it? For some of us, our brains simply don't work the same way as the others do. For others, our bodies refuse to let us get on with it. The onus on us to manage our own burnout can be tangled with shame and frustration. In this session, Jasmina will share her experience working full time with chronic illness and neurodiversity. We'll discuss some ways you can support your colleagues - or yourself - through invisible challenges. Jasmina is an accomplished threat intelligence specialist with a diverse background in games development, illustration and Japanese fashion subcultures. She is a senior security leader at Canva, having successfully built a threat intelligence program to support the Security & Trust division. In 2023, Jasmina won the Australian Women Leading Tech award for Cyber Security."
+          tag: personal
+        - time: "12:00"
+          title: "Returning to work in Cyber after intense cancer treatment"
+          speaker: "Adam Stevens"
+          description: "If you have ever come back to a project after one or two months, you would know it is very hard to pick up right where you left off. Context you once had has faded in memory, and the domain knowledge is covered in rust. Adam took close to 12 months away from work due to his highly intense leukaemia treatment. This meant coming back to a life he had not thought about for a year, with the addition of vast number of physical and mental side effects of cancer treatment. This presentation documents Adam's recovery over the last year, with a focus on his career as a Security Analyst in Suncorp's Threat Management team. Adam Stevens is a lightly seasoned analyst with Suncorp's Threat Management team. He joined the organisation in early 2022 and quickly made an impact. Unfortunately, a few months later, Adam faced a personal challenge when he was diagnosed with Leukaemia. Determined to overcome it, he took a year off to undergo intensive chemotherapy. In May 2023, Adam triumphantly returned to his full-time position at Suncorp as a cancer-free man. Adam's expertise lies in the intersection of SOAR (Security Orchestration, Automation, and Response) and security engineering. He's passionate about enhancing threat detection and incident response processes. When he's not immersed in cybersecurity, Adam enjoys hitting the gym, programming, 3D modelling/printing, and cherishing quality time with family and friends."
+          tag: personal
+        - time: "12:30"
+          title: "Lunch"
+          tag: break
+        - time: "13:30"
+          title: "The Enigma machine - Development, Evolution, Compromse"
+          speaker: "Mike Pritchard"
+          description: "Most people in cyber have some awareness that WWII code breaking led to the birth of computing and the industrialisation of intel handling. But since that tech was developed in secret and then destroyed at the end of the war, there is almost nowhere you can see our astonishing heritage first hand. This talk uniquely features fully working 1940's cipher machines and original WWII German Enigma codebooks. With these we'll look at the origins and evolution of the infamous Enigma machine and the process of breaking it, then live demo the machines. Afterwards there will be the opportunity for some \"hands on\" time. Security2Cure is pleased to offer this talk that takes you back to the very roots of computing and cyber. Mike Pritchard, founder and curator Espionage Museum Australia"
+          tag: technical
+        - time: "14:00"
+          title: "Observations of a Russian Corporate Espionage Group"
+          speaker: "Ben May & Molly Day"
+          description: "The presentation explores recent observations from activity focused on Australian interests related to the Russian Corporate Espionage Group. Molly Day is a CTI professional experienced in developing organisations insider threat and threat intelligence capabilities, tracking threat actors, gathering intelligence, and conducting investigations. She has worked with organisations across a range of industries, including large government agencies, critical infrastructure, financial services, education, healthcare, and more. Molly also volunteers as a guest lecturer across several Australian universities and is a mentor for the Australian Women in Security Network (AWSN). Ben was previously the Threat Hunting Manager at SEEK. Before SEEK Ben worked in the Energy Sector within the Cyber Threat Operations space for approximately 14 years, from analyst-level operations to building and leading mature threat detection, intelligence, and incident response functions."
+          tag: technical
+        - time: "14:30"
+          title: "Afternoon Tea"
+          tag: break
+        - time: "15:00"
+          title: "Round Table - Cancer"
+          speaker: "Industry Panel"
+          description: "A number of security professionals will discuss their journey with cancer and how it has affected their lives and how they have maintained their career."
+          tag: personal
+        - time: "16:00"
+          title: "Post Conference Networking Drinks"
+          tag: break

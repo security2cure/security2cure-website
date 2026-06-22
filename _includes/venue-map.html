@@ -1,0 +1,28 @@
+{% assign map = site.conference.venue_map %}
+{% assign lat = map.lat %}
+{% assign lng = map.lng %}
+{% assign pad = 0.003 %}
+{% assign min_lng = lng | minus: pad %}
+{% assign min_lat = lat | minus: pad %}
+{% assign max_lng = lng | plus: pad %}
+{% assign max_lat = lat | plus: pad %}
+{% assign bbox = min_lng | append: ',' | append: min_lat | append: ',' | append: max_lng | append: ',' | append: max_lat %}
+{% assign marker = lat | append: ',' | append: lng %}
+{% assign address = site.conference.venue_address | uri_escape %}
+{% assign osm_link = 'https://www.openstreetmap.org/?mlat=' | append: lat | append: '&mlon=' | append: lng | append: '#map=17/' | append: lat | append: '/' | append: lng %}
+{% assign directions_link = 'https://www.google.com/maps/dir/?api=1&destination=' | append: address %}
+
+<div class="venue-map">
+  <iframe
+    class="venue-map__embed"
+    title="Map showing {{ site.conference.venue }} at {{ site.conference.venue_address }}"
+    src="https://www.openstreetmap.org/export/embed.html?bbox={{ bbox }}&amp;layer=mapnik&amp;marker={{ marker }}"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+  <div class="venue-map__footer">
+    <a href="{{ osm_link }}" target="_blank" rel="noopener noreferrer">Open map</a>
+    <span aria-hidden="true">·</span>
+    <a href="{{ directions_link }}" target="_blank" rel="noopener noreferrer">Get directions</a>
+  </div>
+</div>

@@ -1,0 +1,69 @@
+- id: speaker-a
+  name: "Placeholder Speaker A"
+  role: "Chief Information Security Officer, Placeholder Corp"
+  bio: "Placeholder Speaker A leads enterprise security programmes across regulated industries and speaks regularly on threat trends, governance, and building resilient teams."
+  social:
+    mastodon: "#"
+    bluesky: "#"
+    linkedin: "#"
+    twitter: "#"
+
+- id: speaker-b
+  name: "Placeholder Speaker B"
+  role: "Head of Threat Intelligence, Placeholder Security"
+  bio: "Placeholder Speaker B researches emerging attack techniques and helps organisations turn intelligence into practical detection and response improvements."
+  social:
+    mastodon: "#"
+    bluesky: "#"
+    linkedin: "#"
+    twitter: "#"
+
+- id: speaker-c
+  name: "Placeholder Speaker C"
+  role: "Security Engineer & Survivor"
+  bio: "Placeholder Speaker C combines hands-on security engineering with lived experience navigating cancer treatment while staying engaged in the cyber community."
+  social:
+    mastodon: "#"
+    bluesky: "#"
+    linkedin: "#"
+    twitter: "#"
+
+- id: speaker-d
+  name: "Placeholder Speaker D"
+  role: "Director of Security Architecture, Placeholder Industries"
+  bio: "Placeholder Speaker D designs large-scale security architecture programmes, with a focus on zero trust, identity, and measurable risk reduction."
+  social:
+    mastodon: "#"
+    bluesky: "#"
+    linkedin: "#"
+    twitter: "#"
+
+- id: speaker-e
+  name: "Dr. Placeholder E"
+  role: "Oncologist, Placeholder Medical Centre"
+  bio: "Dr. Placeholder E supports early detection and screening education, helping professionals understand evidence-based options for proactive health checks."
+  social:
+    mastodon: "#"
+    bluesky: "#"
+    linkedin: "#"
+    twitter: "#"
+
+- id: speaker-f
+  name: "Placeholder Speaker F"
+  role: "Head of DFIR, Placeholder Bank"
+  bio: "Placeholder Speaker F leads digital forensics and incident response teams, with deep experience coordinating technical recovery and executive communication during breaches."
+  social:
+    mastodon: "#"
+    bluesky: "#"
+    linkedin: "#"
+    twitter: "#"
+
+- id: speaker-h
+  name: "Placeholder Speaker H"
+  role: "Community Lead & Panel Moderator"
+  bio: "Placeholder Speaker H facilitates community conversations on compassion in cyber, mentorship, and supporting colleagues through health and personal challenges."
+  social:
+    mastodon: "#"
+    bluesky: "#"
+    linkedin: "#"
+    twitter: "#"

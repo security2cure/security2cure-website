@@ -1,0 +1,26 @@
+name: "Platinum Sponsors"
+sponsors: 
+  - id: Sekuro
+    name: "Sekuro"
+    logo: "/assets/images/sponsors/sekuro.png"
+    url: "https://www.sekuro.com.au"
+    bio: "Sekuro"
+
+  - id: Infotrust
+    name: "Infotrust"
+    logo: "/assets/images/sponsors/infotrust.png"
+    url: "https://www.infotrust.com.au"
+    bio: "Infotrust"
+     
+  - id: Commvault
+    name: "Commvault"
+    logo: "/assets/images/sponsors/comvault.png"
+    url: "https://www.commvault.com"
+    bio: "Commvault"
+
+  - id: Baidam
+    name: "Baidam"
+    logo: "/assets/images/sponsors/baidam.png"
+    url: "https://www.baidam.com.au    "
+    bio: "Baidam"
+

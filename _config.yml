@@ -1,0 +1,77 @@
+title: Security2Cure
+description: >-
+  An annual cyber security conference and registered charity raising awareness
+  about cancer. Industry peers share insights from the cyber front lines while
+  embracing the humility and vulnerability of a disease that impacts us all.
+url: "https://www.security2cure.com.au"
+baseurl: ""
+lang: en-AU
+
+logo: "/assets/images/logo/s2c.svg"
+
+# Current conference year: update these values each year
+conference:
+  year: 2026
+  name: "Security2Cure 2026"
+  tagline: "Cyber security. Community. Compassion."
+  date: "2026-09-04"
+  date_display: "Friday 4 September 2026"
+  city: "Brisbane"
+  venue: "Heritage Lanes"
+  venue_address: "Level 27, 80 Ann Street, Brisbane QLD 4000"
+  venue_map:
+    lat: -27.468358
+    lng: 153.028110
+  countdown_enabled: true
+  tickets_url: "https://www.trybooking.com/events/landing/1595877"
+  agenda_url: "/schedule/"
+  schedule_visible: false  # set true to show Schedule links in nav/footer/homepage
+  registration_open: true
+
+organization:
+  legal_name: "Security2Cure Ltd"
+  abn: "75 678 536 395"
+  charity: "ACNC Registered Charity"
+  acnc_url: "https://www.acnc.gov.au/charity/charities/36141492-243f-ef11-a316-002248922f3a/profile"
+  linkedin: "https://www.linkedin.com/company/security2cure"
+  twitter: "https://x.com/security2cure"
+  contact_email: "hello@security2cure.com.au"
+  
+
+donations:
+  url: "https://donate.stripe.com/6oU28q3TbbxA5LP0yNeUU01"
+  button_label: "Donate Now"
+  text: "Your donation helps us continue raising awareness about serious health issues such as cancer. Donations are tax-deductible."
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+timezone: Australia/Brisbane
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - SETUP.md
+  - vendor
+
+collections:
+  archives:
+    output: true
+    permalink: /archives/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: archives
+    values:
+      layout: archive
+  - scope:
+      path: ""
+    values:
+      layout: page

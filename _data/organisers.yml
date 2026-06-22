@@ -1,0 +1,35 @@
+organisers:
+  - name: "Zane Jarvis"
+    role: "Founder & Chair"
+    bio: "Founder and Chair of Security2Cure, the charity and conference for cancer awareness through shared experience. Leads threat management and operational security in financial services, with a career from AUSCERT through consulting to offensive and enterprise defensive roles."
+    linkedin: "https://www.linkedin.com/in/zanejarvis/"
+
+  - name: "Alexander Tilley"
+    role: "Director"
+    bio: "Seasoned cyber intelligence leader with 25+ years in federal law enforcement and industry. Former AFP cybercrime technical analyst targeting global cybercrime and child exploitation. Now Global Threat Research Coordinator at Okta, leading law enforcement engagement and strategic threat research."
+    linkedin: "https://www.linkedin.com/in/alex-tilley-440b992/"
+
+  - name: "Benjamin Carroll"
+    role: "Director"
+    bio: "Principal IT Security Advisor at Suncorp and down to earth cyber leader. Well known in the industry for technical depth, mentoring teams through tough projects, and long term strategy that turns complex security requirements into clear, practical outcomes."
+    linkedin: "https://www.linkedin.com/in/ben-carroll/"
+
+  - name: "Carrie Gurr"
+    role: "Director"
+    bio: "Cyber security sales executive with 20+ years supporting global and local enterprises across QLD. Pairs solution expertise with trusted client relationships and champions mentorship and inclusion for women in cyber across diverse backgrounds."
+    linkedin: "https://www.linkedin.com/in/carrie-gurr-6595ab3/"
+
+  - name: "Brodie Carter"
+    role: "Conference Sub-Committee"
+    bio: "Co founder of Division 5, a boutique cyber consultancy with 40+ staff based out of Brisbane, with 18+ years working experience across offensive and defensive security. Co founded BSides Brisbane, organises SecTalks, serves on the AISA Queensland committee, and champions local community events."
+    linkedin: "https://www.linkedin.com/in/brodiecarter/"
+
+  - name: "Chelsey Costello"
+    role: "Conference Sub-Committee"
+    bio: "Principal cyber security consultant and recruiter with over a decade placing professionals across Queensland, from critical infrastructure to ASX listed clients. Former AWSN Brisbane Chapter Lead and AISA Queensland committee member who connects, empowers, and champions diversity in the industry."
+    linkedin: "https://www.linkedin.com/in/chelseycostello/"
+
+  - name: "Michael Pearson"
+    role: "Conference Sub-Committee"
+    bio: "Committee member for partnerships at Security2cure. Cybersecurity leader with a passion for helping organisations strengthen their security posture through innovative technology and trusted partnerships. Committed to simplifying complex challenges and enabling secure, resilient outcomes."
+    linkedin: "https://www.linkedin.com/in/michael-pearson-3821bb93/"

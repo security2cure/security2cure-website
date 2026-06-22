@@ -1,0 +1,49 @@
+{% for tier_key in site.data.sponsors_order %}
+  {% assign tier = site.data.sponsors[tier_key] %}
+  {% for sponsor in tier.sponsors %}
+    {% if sponsor.id and sponsor.bio %}
+<div
+  id="sponsor-modal-{{ sponsor.id }}"
+  class="sponsor-modal"
+  role="dialog"
+  aria-modal="true"
+  aria-hidden="true"
+  aria-labelledby="sponsor-modal-{{ sponsor.id }}-title"
+>
+  <div class="sponsor-modal__overlay" data-sponsor-modal-close tabindex="-1"></div>
+  <div class="sponsor-modal__dialog">
+    <header class="sponsor-modal__header">
+      <div>
+        <h2 id="sponsor-modal-{{ sponsor.id }}-title" class="sponsor-modal__title">{{ sponsor.name }}</h2>
+      </div>
+      <button type="button" class="sponsor-modal__close" data-sponsor-modal-close aria-label="Close sponsor profile">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </header>
+    <div class="sponsor-modal__body">
+      {% if sponsor.logo %}
+        {% unless sponsor.logo contains 'placeholder.svg' %}
+      <div class="sponsor-modal__logo">
+        <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} logo" loading="lazy">
+      </div>
+        {% endunless %}
+      {% endif %}
+      <div class="sponsor-modal__bio">{{ sponsor.bio | newline_to_br }}</div>
+      <div class="sponsor-modal__actions">
+      {% if sponsor.url %}
+      <a href="{{ sponsor.url }}" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Visit website</a>
+      {% endif %}
+      {% if sponsor.links %}
+        {% for link in sponsor.links %}
+      <a href="{{ link.url }}" class="btn btn--secondary btn--sm" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+        {% endfor %}
+      {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}

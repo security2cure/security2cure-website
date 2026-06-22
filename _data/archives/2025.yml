@@ -1,0 +1,62 @@
+schedule:
+  tracks:
+    - name: "Brisbane, 10 October 2025"
+      sessions:
+        - time: "08:30"
+          title: "Arrival and Coffee"
+          description: "80 Ann St, (Heritage Lanes), Brisbane"
+          tag: break
+        - time: "09:00"
+          title: "Acknowledgement of Country and Housekeeping"
+          tag: admin
+        - time: "09:15"
+          title: "Security2Cure Update"
+          speaker: "Zane Jarvis"
+          tag: admin
+        - time: "09:45"
+          title: "Keynote: How to socially engineer compliance for your security program"
+          speaker: "Kelsy Luengen"
+          description: "In the world of cybersecurity, social engineering is often seen as a threat vector; a tool used by attackers to exploit human psychology. But what if we turned that tactic on its head? This talk explores how principles of social engineering and behavioural science, particularly nudge theory, can be harnessed to drive meaningful engagement and compliance within your security program. We'll dive into the psychology behind decision-making, examine how subtle environmental and cultural cues can shift user behaviour, and outline practical strategies for achieving normative compliance. Whether you're launching a new policy or trying to reduce shadow IT, this session will equip you with a smarter, more human-centred approach to influencing security culture."
+          tag: keynote
+        - time: "10:30"
+          title: "How I Learned to Stop Worrying and Love Third Party Cyber Security Incidents"
+          speaker: "Phil Cole"
+          description: "Third party cyber security incidents are like a hot potato - no one wants to deal with them. But they are, in fact, a gift for internal incident response teams. Not only are they an opportunity to develop and hone incident management skills, but even more importantly, they give you the means to establish your place in the organisation as a trusted and reliable incident management function. I'll talk about my experiences using third party security incidents as a way to uplift internal incident response capability."
+          tag: technical
+        - time: "11:00"
+          title: "Morning Tea"
+          tag: break
+        - time: "11:30"
+          title: "Burnout in Cybersecurity – How Anarchism may help you"
+          speaker: "Thomas Ponnet"
+          description: "Burnout has been on the rise for the last 15 years. Given the challenges in cybersecurity, regardless if you are a Pentester, Analyst, Engineer, PM, Consultant, Risk or Team Manager you will have been under stress. This talk investigates what takes people from stress to burnout, and how questioning assumed or real authority and adopting an anarchist community approach can help prevent and recover from it. The talk will demystify what burnout is and what it isn't. It will describe the factors contributing to burnout, symptoms that can be observed by yourself and others, and will include real examples from myself and other people who went through rehabilitation with some recovering and some not. There will be real life examples of the mental and physical connection and what weird and astonishing forms this can take. What people will take home is a better understanding of their own reactions to stress and potential burnout, learn how to look out for warning signs in their colleagues, team members, and managers, and learn how some anarchist principles can be used for good."
+          tag: personal
+        - time: "12:00"
+          title: "Best practices for containing AWS resources during incident response"
+          speaker: "Richard Billington"
+          description: "Learn best practices for implementing isolation controls for AWS resources and accounts during security events. Through practical scenarios, discover effective approaches for isolating Amazon EC2 instances, AWS Lambda functions, and Amazon ECS containers. Explore comprehensive strategies for account-level isolation including identity, resource, and network controls. This session provides guidance on implementing isolation controls as part of your response procedures. Leave with actionable patterns for strengthening your AWS incident response capabilities."
+          tag: technical
+        - time: "12:30"
+          title: "Lunch"
+          tag: break
+        - time: "13:30"
+          title: "Nanotechnology for early and precise monitoring of cancer and the human immune system"
+          speaker: "Courtney Vedelago"
+          description: "Nanotechnology is the study of very small structures which cannot be detected by the human eye alone. It forms part of many objects and materials used by people every day but also provides a key advantage in biomedical research and diagnostics. Nanotechnology has revolutionised the sensitive and precise tracking of small molecules that are strongly influential in the development of diseases like cancer, providing better alternatives for cancer detection, tumour differentiation and treatment monitoring. Its benefits have also spilled over into deepening the understanding of the respiratory infection COVID-19 and long-COVID. Despite these striking discoveries, these diagnostics still need further development to make them more bedside applicable and accessible to various people across the country."
+          tag: personal
+        - time: "14:00"
+          title: "Be a better manager by observing the bad ones"
+          speaker: "Alex Desmond"
+          description: "My experience from being in the military where you are taught to lead and then how that is applied to the corporate roles I've been in. The pros and cons and what is missing from both. How organizations no matter the size can equip their people better which drives better culture."
+          tag: personal
+        - time: "14:30"
+          title: "Afternoon Tea"
+          tag: break
+        - time: "15:00"
+          title: "Round Table - Cancer"
+          speaker: "Industry Panel"
+          description: "A number of security professionals will discuss their journey with cancer and how it has affected their lives and how they have maintained their career."
+          tag: personal
+        - time: "16:00"
+          title: "Post Conference Networking Drinks"
+          tag: break

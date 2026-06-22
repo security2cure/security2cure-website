@@ -1,0 +1,103 @@
+<section class="pdpr-framework" aria-labelledby="pdpr-framework-title">
+  <h3 id="pdpr-framework-title" class="pdpr-framework__heading">Plan · Prevent · Detect · Respond</h3>
+  <p class="pdpr-framework__lead">
+    Our health framework mirrors the principles cyber security professionals live by every day.
+    Click a section title to read more.
+  </p>
+
+  <div class="pdpr-framework__stage">
+    <div class="pdpr-framework__grid" role="list">
+      {% for quadrant in site.data.pdpr-framework.quadrants %}
+      <article
+        class="pdpr-quadrant pdpr-quadrant--{{ quadrant.id }}"
+        data-quadrant="{{ quadrant.id }}"
+        role="listitem"
+        aria-label="{{ quadrant.title }} quadrant"
+      >
+        <header class="pdpr-quadrant__header pdpr-quadrant__header--{{ quadrant.align }}">
+          <button
+            type="button"
+            class="pdpr-quadrant__title"
+            data-pdpr-modal="{{ quadrant.id }}"
+            aria-haspopup="dialog"
+            aria-controls="pdpr-modal-{{ quadrant.id }}"
+          >
+            {{ quadrant.title }}
+            <span class="pdpr-quadrant__title-hint" aria-hidden="true">+</span>
+          </button>
+        </header>
+        <p class="pdpr-quadrant__intro">{{ quadrant.intro }}</p>
+        <ul class="pdpr-quadrant__list pdpr-quadrant__list--{{ quadrant.align }}">
+          {% for item in quadrant.items %}
+          <li>
+            <span class="pdpr-quadrant__check" aria-hidden="true">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M2.5 6.2L5 8.7L9.5 3.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span>{{ item }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="pdpr-hub" aria-hidden="true">
+      <div class="pdpr-hub__ring">
+        <svg class="pdpr-hub__svg" viewBox="0 0 220 220" width="220" height="220">
+          <circle cx="110" cy="110" r="108" fill="none" stroke="#fff" stroke-width="2"/>
+          <path d="M110 110 L2 110 A108 108 0 0 1 110 2 Z" fill="#9ec5e8"/>
+          <path d="M110 110 L110 2 A108 108 0 0 1 218 110 Z" fill="#f0d878"/>
+          <path d="M110 110 L110 218 A108 108 0 0 1 2 110 Z" fill="#8ecf8e"/>
+          <path d="M110 110 L218 110 A108 108 0 0 1 110 218 Z" fill="#e89090"/>
+          <circle cx="110" cy="110" r="68" fill="#fff"/>
+        </svg>
+      </div>
+      <div class="pdpr-hub__core">
+        <img src="{{ site.logo | relative_url }}" alt="" width="88" height="88" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  {% for quadrant in site.data.pdpr-framework.quadrants %}
+  <div
+    class="pdpr-modal"
+    id="pdpr-modal-{{ quadrant.id }}"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="pdpr-modal-title-{{ quadrant.id }}"
+    aria-hidden="true"
+  >
+    <div class="pdpr-modal__overlay" data-pdpr-modal-close tabindex="-1"></div>
+    <div class="pdpr-modal__dialog pdpr-modal__dialog--{{ quadrant.id }}">
+      <header class="pdpr-modal__header">
+        <div>
+          <h4 class="pdpr-modal__title" id="pdpr-modal-title-{{ quadrant.id }}">{{ quadrant.title }}</h4>
+          <p class="pdpr-modal__subtitle">{{ quadrant.detail.subtitle }}</p>
+        </div>
+        <button type="button" class="pdpr-modal__close" data-pdpr-modal-close aria-label="Close dialog">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </header>
+      <div class="pdpr-modal__body">
+        {% for paragraph in quadrant.detail.paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+        {% for section in quadrant.detail.sections %}
+        <h5 class="pdpr-modal__section-title">{{ section.heading }}</h5>
+        <p>{{ section.body }}</p>
+        {% endfor %}
+        <h5 class="pdpr-modal__section-title">Key takeaways</h5>
+        <ul class="pdpr-modal__takeaways">
+          {% for item in quadrant.detail.takeaways %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>

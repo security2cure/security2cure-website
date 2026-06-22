@@ -1,0 +1,112 @@
+{% assign legacy_sponsors = include.data %}
+{% assign use_modals = false %}
+{% if legacy_sponsors == nil %}
+  {% assign use_modals = true %}
+{% endif %}
+
+<div class="sponsors">
+  {% if legacy_sponsors %}
+    {% for tier in legacy_sponsors.tiers %}
+  <div class="sponsors__tier">
+    <h3 class="sponsors__tier-title">{{ tier.name }}</h3>
+    <div class="sponsors__grid">
+      {% if tier.sponsors == nil or tier.sponsors.size == 0 %}
+      {% include sponsor-wanted-graphic.html tier=tier.name %}
+      {% else %}
+      {% for sponsor in tier.sponsors %}
+      <div class="sponsors__logo{% unless sponsor.logo %} sponsors__logo--placeholder{% endunless %}{% if sponsor.logo and sponsor.logo contains 'placeholder.svg' %} sponsors__logo--graphic-placeholder{% endif %}">
+        {% if sponsor.logo %}
+          {% if sponsor.logo contains 'placeholder.svg' %}
+          {% include sponsor-placeholder-graphic.html %}
+          {% else %}
+          <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" loading="lazy">
+          {% endif %}
+        {% else %}
+        {{ sponsor.name }}
+        {% endif %}
+      </div>
+      {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+    {% endfor %}
+  {% else %}
+    {% if include.supporters_only %}
+      {% assign tier_keys = "supporters" | split: "|" %}
+    {% else %}
+      {% assign tier_keys = site.data.sponsors_order %}
+    {% endif %}
+    {% for tier_key in tier_keys %}
+      {% assign tier = site.data.sponsors[tier_key] %}
+  <div class="sponsors__tier">
+    {% unless include.supporters_only %}
+    <h3 class="sponsors__tier-title">{{ tier.name }}</h3>
+    {% endunless %}
+    <div class="sponsors__grid">
+      {% if tier.sponsors == nil or tier.sponsors.size == 0 %}
+      {% include sponsor-wanted-graphic.html tier=tier.name %}
+      {% else %}
+      {% for sponsor in tier.sponsors %}
+        {% assign has_modal = false %}
+        {% if sponsor.id and sponsor.bio %}
+          {% assign has_modal = true %}
+        {% endif %}
+        {% if has_modal %}
+      <button
+        type="button"
+        class="sponsors__logo sponsors__logo--button{% unless sponsor.logo %} sponsors__logo--placeholder{% endunless %}{% if sponsor.logo and sponsor.logo contains 'placeholder.svg' %} sponsors__logo--graphic-placeholder{% endif %}"
+        data-sponsor-modal="{{ sponsor.id }}"
+        aria-haspopup="dialog"
+        aria-controls="sponsor-modal-{{ sponsor.id }}"
+      >
+        {% if sponsor.logo %}
+          {% if sponsor.logo contains 'placeholder.svg' %}
+          {% include sponsor-placeholder-graphic.html %}
+          {% else %}
+          <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" loading="lazy">
+          {% endif %}
+        {% else %}
+        {{ sponsor.name }}
+        {% endif %}
+      </button>
+        {% elsif sponsor.url %}
+      <a
+        href="{{ sponsor.url }}"
+        class="sponsors__logo sponsors__logo--link{% unless sponsor.logo %} sponsors__logo--placeholder{% endunless %}{% if sponsor.logo and sponsor.logo contains 'placeholder.svg' %} sponsors__logo--graphic-placeholder{% endif %}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {% if sponsor.logo %}
+          {% if sponsor.logo contains 'placeholder.svg' %}
+          {% include sponsor-placeholder-graphic.html %}
+          {% else %}
+          <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" loading="lazy">
+          {% endif %}
+        {% else %}
+        {{ sponsor.name }}
+        {% endif %}
+      </a>
+        {% else %}
+      <div class="sponsors__logo{% unless sponsor.logo %} sponsors__logo--placeholder{% endunless %}{% if sponsor.logo and sponsor.logo contains 'placeholder.svg' %} sponsors__logo--graphic-placeholder{% endif %}">
+        {% if sponsor.logo %}
+          {% if sponsor.logo contains 'placeholder.svg' %}
+          {% include sponsor-placeholder-graphic.html %}
+          {% else %}
+          <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" loading="lazy">
+          {% endif %}
+        {% else %}
+        {{ sponsor.name }}
+        {% endif %}
+      </div>
+        {% endif %}
+      {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+    {% endfor %}
+  {% endif %}
+</div>
+
+{% if use_modals %}
+{% include sponsor-modals.html %}
+{% endif %}

@@ -1,0 +1,62 @@
+schedule:
+  tracks:
+    - name: "Brisbane, 13 October 2023"
+      sessions:
+        - time: "09:00"
+          title: "Arrival and Coffee"
+          description: "Level 18, Heritage Lanes, 80 Ann St Brisbane"
+          tag: break
+        - time: "09:30"
+          title: "Welcome to Country and Housekeeping"
+          tag: admin
+        - time: "09:45"
+          title: "Keynote: CISO - Suncorp Group"
+          speaker: "Richard Boxall"
+          description: "\"Assume nothing – Detail Matters\" The Threat Environment requires defenders to be almost 100% right, whilst attackers just 1% lucky to have success. Defence in depth is a key strategy to counter attackers but implementation is not straight forward in complex environments. In this keynote, Richard will share his perspectives on some common assumptions that can result in risks and some practical approaches to drive improvement and risk reduction."
+          tag: keynote
+        - time: "10:30"
+          title: "Get Comfortable being Uncomfortable"
+          speaker: "Ben Passmore"
+          description: "This presentation explores imposter syndrome in the security industry, common personality traits and knowledge we look for in new hires and hacking escapades that got the presenter in a little trouble. Ben Passmore started his career developing those really bad PHP sites everyone laughs at. After having so many fall pray to script kiddies he became the defunct security guy. From there he ventured into penetration testing for a few years but eventually was pushed into incident response, now managing the global incident response team for Rio Tinto. With nearly a decade of breaking or investigating things he may have some pearls of wisdom ... or he may just whinge that IRC was the superior communication platform."
+          tag: technical
+        - time: "11:00"
+          title: "Morning Tea"
+          description: "Sponsored by Abnormal Security"
+          tag: break
+        - time: "11:30"
+          title: "Pipeline Security"
+          speaker: "Colby Prior"
+          description: "This presentation will discuss best practices in pipeline security and will cover real world examples of the most common pitfalls. Protecting GitHub actions from malicious pull requests. Compiling Software Bill of Materials, identifying third party vulnerabilities. Automatic patching of software libraries. Getting the most out of SAST and DAST tools. Colby Prior is a skilled DevSecOps engineer with extensive experience in security automation, and cloud security. With a passion for creating secure and scalable systems, he has worked with a range of organisations, from startups to large enterprises, to build and maintain secure infrastructure. Colby has deep expertise in designing and implementing security controls within a DevOps environment, integrating security testing into the software development lifecycle, and automating security tasks. Colby is dedicated to promoting secure and efficient DevSecOps practices, and he is committed to helping organisations adopt secure methodologies to improve their security posture."
+          tag: technical
+        - time: "12:00"
+          title: "A look at some common AWS CIRT security events and how to respond"
+          speaker: "Richard Billington"
+          description: "The AWS Customer Incident Response Team (CIRT) helps customers of all sizes when they have an active security event in their AWS account. In this talk you will hear about some common security events seen by AWS CIRT, how we respond to them, and most importantly how to stop those events happening in your account. After studying software engineering and computer science at the University of Queensland, Richard started his working life as a Solaris sysadmin at the University of Queensland before joining the AusCERT coordination centre team and later managing it. Eventually the lure of financial crime and fraud (or preventing and detecting them, of course) drew Richard across to Suncorp Group where he joined the Security Threat Analysis and Response Team. After a couple of years Richard started managing that team as a rebuild and upgrade of the Incident response and SOC capability kicked off. Following that, and a quick year testing the waters as a security architect at Suncorp, Richard joined the AWS Customer Incident Response Team where he helps customers of all sizes who are having a bad day in the cloud."
+          tag: technical
+        - time: "12:30"
+          title: "Lunch"
+          description: "Sponsored by CrowdStrike"
+          tag: break
+        - time: "13:30"
+          title: "Burnout in Security Operations"
+          speaker: "Phil Cole"
+          description: "Burnout has increasingly become a significant issue for security operations teams, and a risk for the organisations that rely on them. With the ever increasing threat environment and more frequent high profile breaches, there is more demand than ever for experienced security operations staff. But the skills shortage, combined with these increased demands are placing more stressors than ever on security operations teams, which can lead to burnout. In addition to the human impact, this can decrease engagement, performance and retention, all of which put organisations at increased risk. In this presentation, Phil talks about his experiences in security operations, and looks at some of the factors driving burnout, and what we can do to address them. Phil has more than 20 years' experience in engineering and cybersecurity technical management, with both operator and leadership roles within enterprise security operations teams in financial services and higher education. Previous roles include time as a practice lead for security operations and incident response at Suncorp Group and Team Leader for Security Operations at AusCERT, where he assisted the Australian Red Cross Blood Service with their 2016 data breach. He has also helped to establish threat intelligence sharing groups for different markets, including state government agencies and higher education, and prior to moving into cyber security he worked in biomedical engineering and human factors. His diverse background brings unique insights into the field of cyber security operations and incident response. Phil currently works at Cydarm Technologies, adding his significant experience and expertise to their cyber response management platform which provides capabilities that cover a comprehensive set of needs for security operations teams."
+          tag: personal
+        - time: "14:00"
+          title: "Top Treasure of the Cyber Espionage Museum"
+          speaker: "Mike Pritchard"
+          description: "Today in cyber we stand on the shoulders of giants - a 500 year timeline of priests and diplomats, mathematicians, cryptographers and linguists, technicians and developers who built the tools that gradually evolved into cyber. However much of this technology was developed in secret, and routinely destroyed at end of life - so there are few surviving artefacts. This combined with the invisible and ephemeral nature of cyber, has meant that our industry is relatively poor in terms of tangible heritage, vs that of all the other industries that we protect. In this talk, Mike will illuminate the inspiring evolution of cyber via some of the top treasures from his collection. This journey will take us from Renaissance books on cryptography, through genuine espionage equipment and working cipher machines, to the Phone Phreaks and the birth of cyber. Mike Pritchard is Regional Manager for Cydarm, a locally developed Incident Response and Collaboration platform. Mike has worked in IT-related areas in Australia and the UK for many years, the last twelve years in security. Mike's passion project is to create a cyber-espionage museum to help inspire young people to double down on STEM education and cyber careers, to demystify our past and make threat actors more tangible, and to create a cultural resource for cyber people and the wider community."
+          tag: technical
+        - time: "14:30"
+          title: "Afternoon Tea"
+          description: "Sponsored by Airlock Digital"
+          tag: break
+        - time: "15:00"
+          title: "Round Table - Cancer"
+          speaker: "Industry Panel"
+          description: "A number of security professionals will discuss their journey with cancer and how it has affected their lives and how they have maintained their career."
+          tag: personal
+        - time: "16:00"
+          title: "After Party"
+          description: "Sponsored by Netskope"
+          tag: break

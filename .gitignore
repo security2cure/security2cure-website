@@ -1,0 +1,11 @@
+_site/
+_config_github_pages.yml
+_tmp_*
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/bundle/
+.bundle/
+*.gem
+.DS_Store
+Thumbs.db

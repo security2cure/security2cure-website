@@ -1,0 +1,22 @@
+---
+layout: page
+title: Conference Archives
+subtitle: Browse past Security2Cure conferences, including agendas, sponsors, and closing notes from previous years.
+permalink: /archives/
+---
+
+<p>
+  Security2Cure has been bringing the cyber security community together since 2023. Explore our
+  archive of past conferences below.
+</p>
+
+<div class="grid grid--3" style="margin-top: 2rem;">
+  {% assign sorted = site.archives | sort: 'year' | reverse %}
+  {% for archive in sorted %}
+  <a href="{{ archive.url | relative_url }}" class="card archive-card">
+    <div class="archive-card__year">{{ archive.year }}</div>
+    <div class="archive-card__cities">{{ archive.cities | join: ' · ' }}</div>
+    <p class="archive-card__summary">{{ archive.summary }}</p>
+  </a>
+  {% endfor %}
+</div>

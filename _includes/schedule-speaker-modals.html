@@ -1,0 +1,41 @@
+{% for speaker in site.data.speakers %}
+<div
+  id="speaker-modal-{{ speaker.id }}"
+  class="speaker-modal"
+  role="dialog"
+  aria-modal="true"
+  aria-hidden="true"
+  aria-labelledby="speaker-modal-{{ speaker.id }}-title"
+>
+  <div class="speaker-modal__overlay" data-speaker-modal-close tabindex="-1"></div>
+  <div class="speaker-modal__dialog">
+    <header class="speaker-modal__header">
+      <div>
+        <h2 id="speaker-modal-{{ speaker.id }}-title" class="speaker-modal__title">{{ speaker.name }}</h2>
+        {% if speaker.role %}
+        <p class="speaker-modal__role">{{ speaker.role }}</p>
+        {% endif %}
+      </div>
+      <button type="button" class="speaker-modal__close" data-speaker-modal-close aria-label="Close speaker profile">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </header>
+    <div class="speaker-modal__body">
+      {% if speaker.bio %}
+      <p>{{ speaker.bio }}</p>
+      {% endif %}
+      {% if speaker.social %}
+      {% include social-icons.html
+        mastodon=speaker.social.mastodon
+        bluesky=speaker.social.bluesky
+        linkedin=speaker.social.linkedin
+        twitter=speaker.social.twitter
+        class="social-icons social-icons--modal"
+      %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endfor %}

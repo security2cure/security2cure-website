@@ -1,0 +1,50 @@
+name: "Supporters"
+sponsors:
+  - id: aisa
+    name: "AISA"
+    logo: "/assets/images/sponsors/aisa.png"
+    url: "https://www.aisa.org.au"
+    bio: |
+      The Australian Information Security Association (AISA) is Australia's peak body for cyber security professionals — a national not-for-profit dedicated to advancing the security and safety of Australia and Australians.
+
+      AISA brings together a large and growing community of practitioners through branch meetings, webinars, networking events, and conferences including the Australian Cyber Conference (CyberCon). Members benefit from professional development, industry news, and connections across the local cyber security ecosystem.
+
+      Beyond its member community, AISA contributes to public cyber security awareness and workforce development — including outreach education, thought leadership through publications such as Cyber Today, and advocacy on issues like workforce diversity and the professionalisation of cyber security in Australia.
+
+  - id: auscert
+    name: "AusCERT"
+    logo: "/assets/images/sponsors/auscert.jpg"
+    url: "https://www.auscert.org.au"
+    bio: |
+      AusCERT is Australia's national cyber emergency response team and one of the country's longest-established cyber security organisations, with more than 30 years of industry experience. A trusted not-for-profit, AusCERT supports over 500 member organisations across Australia.
+
+      Membership provides practical assistance during cyber security incidents, daily vulnerability bulletins and custom reporting, and threat intelligence including indicators, alerts, and sensitive information leak notifications. Additional services cover training, and governance, risk and compliance advice aligned with business objectives.
+
+      AusCERT also publishes regular threat summaries such as the Week in Review, and hosts Australia's longest-running cyber security conference — a cornerstone event for practitioners, researchers, and the wider security community.
+
+  - id: ciso-lens
+    name: "CISO Lens"
+    logo: "/assets/images/sponsors/cisolens.png"
+    url: "https://www.cisolens.com"
+    bio: |
+      CISO Lens is the premier information sharing and analysis community for cyber security executives from the largest organisations in Australia and New Zealand. Founded in January 2015, it was created on the premise that cyber risk is a business issue best addressed through cross-organisational and cross-industry collaboration.
+
+      The community is designed for very large ASX and NZX companies, critical infrastructure providers, and major government departments — organisations with complex environments, large workforces, and millions of customers or citizens to protect.
+
+      Through peer networking, structured collaboration, information sharing, community coordination, and benchmarking, CISO Lens supports evidence-based decision making on security strategy and resource allocation. Its mission is to strengthen the cyber resilience of Australia and New Zealand by helping senior leaders solve problems together, early.
+
+  - id: ir8
+    name: "IRATEAU"
+    logo: "/assets/images/sponsors/ir8.jpeg"
+    url: "https://www.ir8.group"
+    bio: |
+      IRATEAU (IR8) stands for Incident Response Australia Technical Exchange — an Australian non-profit incorporated association based in Brunswick East, Victoria, that supports cyber security incident responders.
+
+      Their focus is strictly on community-driven cyber defence and incident management. Core initiatives include operating a community Malware Information Sharing Platform (MISP) to help Australian organisations share threat indicators; hosting conferences and technical exchanges for security professionals to discuss incident response techniques; and developing open-source tooling (such as Slack-to-MISP bots) to streamline data sharing.
+
+      For more details on their initiatives or to get involved, visit their GitHub organisation or review their official standing on the ACNC Charity Register.
+    links:
+      - label: "GitHub"
+        url: "https://github.com/IRATEAU"
+      - label: "ACNC Charity Register"
+        url: "https://www.acnc.gov.au/charity/charities/57493ba7-3aaf-e811-a962-000d3ad24a0d/profile"

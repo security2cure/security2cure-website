@@ -1,0 +1,75 @@
+tracks:
+  - name: "Main Stage: Full Day Programme"
+    sessions:
+      - time: "08:00"
+        title: "Registration, Badge Pickup & Coffee"
+        description: "Collect your badge, browse sponsor booths, and grab a coffee before the day begins."
+        tag: break
+
+      - time: "09:00"
+        title: "Welcome to Security2Cure 2026"
+        speaker: "Conference Committee"
+        description: "Opening remarks, acknowledgement of country, charity mission overview, and sponsor thank-yous."
+        tag: admin
+
+      - time: "09:20"
+        title: "Keynote: The State of Cyber in 2026"
+        speaker_id: speaker-a
+        description: "A look at the trends, threats, and opportunities shaping Australian cyber security this year, from regulation and ransomware to how teams are adapting under pressure."
+        tag: keynote
+
+      - time: "10:00"
+        title: "AI-Powered Threats: Separating Hype from Reality"
+        speaker_id: speaker-b
+        description: "Practical guidance on where AI is genuinely changing the threat landscape and where vendor marketing outpaces operational reality."
+        tag: technical
+
+      - time: "10:40"
+        title: "Morning Tea & Sponsor Showcase"
+        description: "Network with sponsors and peers. Refreshments provided."
+        tag: break
+
+      - time: "11:10"
+        title: "My Story: Cancer, Career, and Carrying On"
+        speaker_id: speaker-c
+        description: "A personal narrative about navigating a cancer diagnosis while leading a security team, and why vulnerability is a strength in both life and leadership."
+        tag: personal
+
+      - time: "11:50"
+        title: "Zero Trust Architecture in the Enterprise"
+        speaker_id: speaker-d
+        description: "Lessons from rolling out zero trust at scale: identity, segmentation, monitoring, and the organisational change required to make it stick."
+        tag: technical
+
+      - time: "12:30"
+        title: "Lunch & Networking"
+        description: "Catered lunch with open seating. Sponsors available for demos and conversations."
+        tag: break
+
+      - time: "13:30"
+        title: "Panel: Cyber Community & Compassion"
+        speaker_id: speaker-h
+        description: "Speakers and community leaders discuss supporting colleagues through health challenges and building a more compassionate industry culture."
+        tag: personal
+
+      - time: "14:10"
+        title: "Early Detection Saves Lives"
+        speaker_id: speaker-e
+        description: "Evidence-based guidance on cancer screening programmes, warning signs, and proactive health checks for busy professionals."
+        tag: personal
+
+      - time: "14:50"
+        title: "Afternoon Tea"
+        tag: break
+
+      - time: "15:10"
+        title: "Incident Response: Tales from the Trenches"
+        speaker_id: speaker-f
+        description: "Real-world breach scenarios, communication under pressure, and lessons learned from the front lines of incident response."
+        tag: technical
+
+      - time: "16:00"
+        title: "Closing Remarks, Raffle & Thank You"
+        speaker: "Conference Committee"
+        description: "Wrap-up, charity update, sponsor acknowledgements, and preview of Security2Cure 2027. Thank you for being part of something bigger."
+        tag: admin

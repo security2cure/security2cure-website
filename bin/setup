@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+# shellcheck source=_ruby-env.sh
+source "$(dirname "$0")/_ruby-env.sh"
+
+if ! command -v bundle >/dev/null 2>&1; then
+  echo "Bundler is not installed. Installing bundler..." >&2
+  gem install bundler -v 2.6.7 --no-document
+fi
+
+bundle config set --local path 'vendor/bundle'
+bundle install
+echo "Done. Run: ./bin/serve"

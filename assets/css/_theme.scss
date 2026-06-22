@@ -1,0 +1,81 @@
+// Theme tokens (CSS custom properties). Toggle via data-theme on <html>.
+
+:root {
+  color-scheme: dark;
+
+  --color-bg: #0a0e17;
+  --color-bg-elevated: #111827;
+  --color-bg-card: #1a2234;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-text: #e2e8f0;
+  --color-text-muted: #94a3b8;
+  --color-surface-hover: rgba(255, 255, 255, 0.06);
+  --color-surface-hover-strong: rgba(255, 255, 255, 0.1);
+  --color-header-backdrop: rgba(10, 14, 23, 0.85);
+  --color-on-accent: #0a0e17;
+  --color-hero-title-start: #ffffff;
+  --color-overlay: rgba(5, 10, 20, 0.82);
+  --color-selection-bg: rgba(6, 182, 212, 0.3);
+  --color-selection-fg: #ffffff;
+  --color-focus-ring: rgba(6, 182, 212, 0.45);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 40px rgba(6, 182, 212, 0.15);
+  --shadow-modal: 0 24px 64px rgba(0, 0, 0, 0.55);
+
+  --sponsor-placeholder-fill: #243044;
+  --sponsor-placeholder-stroke: #3d4f6f;
+  --sponsor-placeholder-text: #94a3b8;
+
+  --sponsor-wanted-fill: #1a2234;
+  --sponsor-wanted-stroke: rgba(6, 182, 212, 0.35);
+  --sponsor-wanted-slot-fill: rgba(255, 255, 255, 0.04);
+  --sponsor-wanted-accent-fill: rgba(6, 182, 212, 0.22);
+  --sponsor-wanted-accent-stroke: rgba(6, 182, 212, 0.55);
+  --sponsor-wanted-header-text: #ffffff;
+  --sponsor-wanted-gradient-start: #004aff;
+  --sponsor-wanted-gradient-end: #06b6d4;
+  --sponsor-wanted-headline: #f97316;
+  --sponsor-wanted-cta: #22d3ee;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --color-bg: #f8fafc;
+  --color-bg-elevated: #f1f5f9;
+  --color-bg-card: #ffffff;
+  --color-border: rgba(15, 23, 42, 0.12);
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+  --color-surface-hover: rgba(15, 23, 42, 0.06);
+  --color-surface-hover-strong: rgba(15, 23, 42, 0.1);
+  --color-header-backdrop: rgba(248, 250, 252, 0.92);
+  --color-on-accent: #042f2e;
+  --color-hero-title-start: #0f172a;
+  --color-overlay: rgba(15, 23, 42, 0.45);
+  --color-selection-bg: rgba(6, 182, 212, 0.25);
+  --color-selection-fg: #0f172a;
+  --color-focus-ring: rgba(8, 145, 178, 0.4);
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 4px 24px rgba(15, 23, 42, 0.1);
+  --shadow-glow: 0 0 40px rgba(6, 182, 212, 0.12);
+  --shadow-modal: 0 24px 64px rgba(15, 23, 42, 0.18);
+
+  --sponsor-placeholder-fill: #f1f5f9;
+  --sponsor-placeholder-stroke: #cbd5e1;
+  --sponsor-placeholder-text: #64748b;
+
+  --sponsor-wanted-fill: #ffffff;
+  --sponsor-wanted-stroke: rgba(8, 145, 178, 0.35);
+  --sponsor-wanted-slot-fill: rgba(15, 23, 42, 0.03);
+  --sponsor-wanted-accent-fill: rgba(6, 182, 212, 0.14);
+  --sponsor-wanted-accent-stroke: rgba(8, 145, 178, 0.45);
+  --sponsor-wanted-header-text: #ffffff;
+  --sponsor-wanted-gradient-start: #004aff;
+  --sponsor-wanted-gradient-end: #06b6d4;
+  --sponsor-wanted-headline: #ea580c;
+  --sponsor-wanted-cta: #0891b2;
+}

@@ -1,0 +1,68 @@
+name: "Sponsors"
+sponsors:
+
+  - id: Suncorp
+    name: "Suncorp"
+    logo: "/assets/images/sponsors/suncorp.jpg"
+    url: "https://www.suncorp.com.au"
+    bio: "Suncorp"
+
+  - id: CrowdStrike
+    name: "CrowdStrike"
+    logo: "/assets/images/sponsors/crowdstrike.png"
+    url: "https://www.crowdstrike.com"
+    bio: "CrowdStrike"
+
+  - id: Mimecast
+    name: "Mimecast"
+    logo: "/assets/images/sponsors/mimecast.jpg"
+    url: "https://www.mimecast.com"
+    bio: "Mimecast"
+
+  - id: Netscope
+    name: "Netscope"
+    logo: "/assets/images/sponsors/netskope.png"
+    url: "https://www.netscope.com"
+    bio: "Netskope"
+
+  - id: Abnormal
+    name: "Abnormal"
+    logo: "/assets/images/sponsors/abnormal.png"
+    url: "https://www.abnormalai.com"
+    bio: "Abnormal"
+
+  - id: AirlockDigital
+    name: "Airlock Digital"
+    logo: "/assets/images/sponsors/airlock.png"
+    url: "https://www.airlockdigital.com.au"
+    bio: "Airlock Digital"
+    
+  - id: DecipherBureau
+    name: "Decipher Bureau"
+    logo: "/assets/images/sponsors/decipherbureau.png"
+    url: "https://decipherbureau.com.au"
+    bio: "Decipher Bureau"
+ 
+  - id: Cyera
+    name: "Cyera"
+    logo: "/assets/images/sponsors/cyera.png"
+    url: "https://cyera.com"
+    bio: "Cyera"
+
+  - id: PaloAlto
+    name: "Palo Alto Networks"
+    logo: "/assets/images/sponsors/palo.png"
+    url: "https://www.paloaltonetworks.com"
+    bio: "Palo Alto"
+ 
+  - id: TechnologyOne
+    name: "Technology One"
+    logo: "/assets/images/sponsors/tech1.png"
+    url: "https://www.technology1.com"
+    bio: "TechnologyOne"
+
+  - id: TheMissingLink
+    name: "The Missing Link"
+    logo: "/assets/images/sponsors/missinglink.png"
+    url: "https://www.themissinglink.com.au"
+    bio: "TML"
