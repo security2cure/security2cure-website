@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-subtitle: Get in touch with the Security2Cure team for tickets, sponsorship, media, or general enquiries.
+subtitle: Get in touch with the Security2Cure team for tickets, sponsorship, media, or general enquiries. *
 permalink: /contact/
 ---
 
