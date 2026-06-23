@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-subtitle: Get in touch with the Security2Cure team for tickets, sponsorship, media, or general enquiries. *
+subtitle: Get in touch with the security2cure team for tickets, sponsorship, media, or general enquiries. *
 permalink: /contact/
 ---
 
@@ -57,7 +57,7 @@ permalink: /contact/
 </div>
 
 <h2>Connect With Us</h2>
-<p>Follow Security2Cure on social media for conference updates, speaker announcements, and community news.</p>
+<p>Follow security2cure on social media for conference updates, speaker announcements, and community news.</p>
 <div class="contact-social">
   {% include organization-social.html %}
 </div>

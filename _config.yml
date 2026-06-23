@@ -1,4 +1,4 @@
-title: Security2Cure
+title: security2cure
 description: >-
   An annual cyber security conference and registered charity raising awareness
   about cancer. Industry peers share insights from the cyber front lines while
@@ -12,7 +12,7 @@ logo: "/assets/images/logo/s2c.svg"
 # Current conference year: update these values each year
 conference:
   year: 2026
-  name: "Security2Cure 2026"
+  name: "security2cure 2026"
   tagline: "Cyber security. Community. Compassion."
   date: "2026-09-04"
   date_display: "Friday 4 September 2026"
@@ -29,7 +29,7 @@ conference:
   registration_open: true
 
 organization:
-  legal_name: "Security2Cure Ltd"
+  legal_name: "security2cure Ltd"
   abn: "75 678 536 395"
   charity: "ACNC Registered Charity"
   acnc_url: "https://www.acnc.gov.au/charity/charities/36141492-243f-ef11-a316-002248922f3a/profile"

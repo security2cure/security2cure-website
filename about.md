@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About Security2Cure
+title: About security2cure
 subtitle: A cyber security conference with heart, raising awareness, building community, and supporting those affected by cancer.
 permalink: /about/
 ---
 
 <h2>Conference History</h2>
 <p>
-  Security2Cure has grown from a single Brisbane event into a nationally recognised conference series,
+  security2cure has grown from a single Brisbane event into a nationally recognised conference series,
   with events held across multiple Australian cities. Browse our
   <a href="{{ '/archives/' | relative_url }}">conference archives</a> for past agendas, sponsors,
   and closing notes from previous years.
@@ -37,19 +37,19 @@ permalink: /about/
   <div>
     <h2>Our Mission</h2>
     <p>
-      Security2Cure is an annual cyber security conference and registered charity that brings together
+      security2cure is an annual cyber security conference and registered charity that brings together
       industry professionals to share knowledge from the cyber front lines while raising awareness
       about cancer, a disease that touches every community, including our own.
     </p>
     <p>
       Founded by cyber security practitioners who recognised the power of community in facing life's
-      hardest challenges, Security2Cure creates a space where technical excellence and human
+      hardest challenges, security2cure creates a space where technical excellence and human
       compassion coexist. Every conference supports our mission to educate, connect, and give back.
     </p>
     <p>
       {{ site.organization.legal_name }} (ABN {{ site.organization.abn }}) is registered with the
       <a href="{{ site.organization.acnc_url }}" target="_blank" rel="noopener noreferrer">Australian Charities and Not-for-profits Commission (ACNC)</a>.
-      Donations to Security2Cure are
+      Donations to security2cure are
       tax-deductible.
     </p>
   </div>
@@ -92,7 +92,7 @@ permalink: /about/
 <section class="framework-section">
   <h3 id="conference-framework">Conference</h3>
   <p>
-    Security2Cure events follow a deliberate structure designed to balance technical depth with
+    security2cure events follow a deliberate structure designed to balance technical depth with
     meaningful human connection. Each conference day is built around four pillars:
   </p>
   <ol class="framework-list">
@@ -106,7 +106,7 @@ permalink: /about/
 <section class="framework-section framework-section--health">
   <h3 id="health-framework">Health</h3>
   <p>
-    Alongside the conference programme, Security2Cure promotes a practical approach to personal
+    Alongside the conference programme, security2cure promotes a practical approach to personal
     health that speaks the language of cyber security. Many of us plan for incidents at work, yet
     fewer of us apply the same discipline to our own wellbeing, screening, and family preparedness.
   </p>
@@ -127,7 +127,7 @@ permalink: /about/
 
 <h2 id="organisers">Organisers</h2>
 <p>
-  Security2Cure is led by its board of directors and supported by volunteers from the cyber security
+  security2cure is led by its board of directors and supported by volunteers from the cyber security
   community. Meet the team behind the conference.
 </p>
 {% include organisers.html %}
