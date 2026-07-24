@@ -24,3 +24,9 @@ sponsors:
     url: "https://www.baidam.com.au    "
     bio: "Baidam"
 
+  - id: Varonis
+    name: "Varonis"
+    logo: "/assets/images/sponsors/varonis-trans.png"
+    url: "https://www.varonis.com"
+    bio: "Varonis"
+
