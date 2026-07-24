@@ -66,3 +66,9 @@ sponsors:
     logo: "/assets/images/sponsors/missinglink.png"
     url: "https://www.themissinglink.com.au"
     bio: "TML"
+
+  - id: Zscaler
+    name: "Zscaler"
+    logo: "/assets/images/sponsors/zscaler.png"
+    url: "https://www.zscaler.com"
+    bio: "Zscaler"
