@@ -44,33 +44,40 @@ tracks:
 
       - time: "12:45"
         title: "Lunch & Networking"
-        description: "Catered lunch with open seating. Sponsors available for demos and conversations."
+        description: "Catered lunch with open seating." 
         tag: break
 
       - time: "13:30"
-        title: "Panel: Cyber Community & Compassion"
+        title: "TBA"
         speaker_id: speaker-h
-        description: "Speakers and community leaders discuss supporting colleagues through health challenges and building a more compassionate industry culture."
-        tag: personal
+        description: "TBA"
+        tag: technical
 
-      - time: "14:10"
-        title: "Early Detection Saves Lives"
+      - time: "14:15"
+        title: "Adaptive Adversaries: How researchers are learning to outsmart cancer"
         speaker_id: speaker-e
-        description: "Evidence-based guidance on cancer screening programmes, warning signs, and proactive health checks for busy professionals."
-        tag: personal
+        description: "In this session, Meghan will demystify clinical trials and explain what participation really means, so that if attendees or their loved ones are ever offered a trial, the experience feels informed rather than intimidating. She will explore how advances in genetic and epigenetic science are transforming cancer care, allowing researchers to understand not just where a cancer has developed, but the unique biological code and signals driving it. Meghan will discuss how modern cancer therapies increasingly resemble sophisticated defence systems, from CAR-T cells that are genetically engineered and redeployed like a bespoke threat-response team, to AI-enabled radiation therapy that helps identify patterns and optimise treatment decisions. Just as cybersecurity professionals work to understand evolving threats, vulnerabilities, and defence strategies in the digital world, cancer researchers are learning to decode, monitor, and outsmart an adaptive biological adversary. Clinical trials are where the next generation of these defences is tested, refined, and ultimately brought into clinical practice."
+        tag: medical
 
-      - time: "14:50"
+
+      - time: "15:00"
         title: "Afternoon Tea"
         tag: break
 
-      - time: "15:10"
-        title: "Incident Response: Tales from the Trenches"
+      - time: "15:30"
+        title: "Tabletop Exercise: What If It Were Cancer? A Crisis Simulation on Time-Critical Decision Making"
         speaker_id: speaker-f
-        description: "Real-world breach scenarios, communication under pressure, and lessons learned from the front lines of incident response."
-        tag: technical
+        description: " Healthcare crises should be treated with the same urgency, coordination, and structured response as a cyber incident, where delays have real consequences."
+        tag: health
 
-      - time: "16:00"
-        title: "Closing Remarks, Raffle & Thank You"
+
+      - time: "16:15"
+        title: "Closing Remarks & Thank You"
         speaker: "Keith Howard, Master of Ceremonies"
-        description: "Wrap-up, charity update, sponsor acknowledgements, and preview of Security2Cure 2027. Thank you for being part of something bigger."
+        description: "Wrap-up, sponsor acknowledgements, and preview of Security2Cure initiatives. Thank you for being part of something bigger."
         tag: admin
+
+      - time: "16:30"
+        title: "Netwtorking Drinks"
+        description: "Drinks and nibbles at a local venue"
+        tag: break

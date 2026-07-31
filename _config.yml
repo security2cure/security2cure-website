@@ -25,7 +25,7 @@ conference:
   countdown_enabled: true
   tickets_url: "https://www.trybooking.com/events/landing/1595877"
   agenda_url: "/schedule/"
-  schedule_visible: false  # set true to show Schedule links in nav/footer/homepage
+  schedule_visible: true  # set true to show Schedule links in nav/footer/homepage
   registration_open: true
 
 organization:
