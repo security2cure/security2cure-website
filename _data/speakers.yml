@@ -1,7 +1,7 @@
 - id: speaker-a
-  name: "Placeholder Speaker A"
-  role: "Chief Information Security Officer, Placeholder Corp"
-  bio: "Placeholder Speaker A leads enterprise security programmes across regulated industries and speaks regularly on threat trends, governance, and building resilient teams."
+  name: "Dr Donna Spooner"
+  role: "Clinical Neuropsychologist, Your Brain In Mind"
+  bio: "Donna is a Clinical Neuropsychologist with a strong interest in the assessment of dementia and other neurological conditions, as well as the design of interventions to assist.  As part of her detailed assessment of individuals’ cognitive or “thinking” skills, she adopts a strengths-based approach to strategy development, capitalising on areas where the person remains to be functioning well. She completed her PhD in Clinical Neuropsychology and Clinical Psychology at the University of Queensland in 2007 and has more than 20 years’ experience in the field of Clinical Neuropsychology.  She was previously employed at the Royal Brisbane & Women’s Hospital for 15 years, providing neuropsychological services to the Memory Clinic and Neurology Department.  She has also worked across a range of private and other public health settings, including the both the Neurosciences Department and the Cognitive, Dementia and Memory Service at St Vincent’s Hospital, Melbourne. Donna is a registered psychologist with AHPRA and holds endorsements in Clinical Neuropsychology and Clinical Psychology.  She is also a member of the APS Psychology and Ageing Interest Group and the Young Onset Dementia Special Interest Group.  She holds the position of Adjunct Lecturer at the University of Queensland and has been involved for many years in the training of postgraduate Neuropsychology students. As a result of her experience, Donna has an in-depth knowledge of the cognitive presentation of a wide range of dementias and neurological conditions.  She is highly committed to the delivery of evidence-based practice and is known for her calm and approachable manner. "
   social:
     mastodon: "#"
     bluesky: "#"
@@ -10,8 +10,8 @@
 
 - id: speaker-b
   name: "Placeholder Speaker B"
-  role: "Head of Threat Intelligence, Placeholder Security"
-  bio: "Placeholder Speaker B researches emerging attack techniques and helps organisations turn intelligence into practical detection and response improvements."
+  role: "Placeholder Security"
+  bio: "Placeholder Speaker B."
   social:
     mastodon: "#"
     bluesky: "#"
@@ -19,9 +19,9 @@
     twitter: "#"
 
 - id: speaker-c
-  name: "Placeholder Speaker C"
-  role: "Security Engineer & Survivor"
-  bio: "Placeholder Speaker C combines hands-on security engineering with lived experience navigating cancer treatment while staying engaged in the cyber community."
+  name: "Kyle Jackson"
+  role: "Head of AI and Automation, Sekuro"
+  bio: "As Head of AI and Automation at Sekuro, I lead the design and delivery of AI-powered platforms and tools at the intersection of artificial intelligence and cyber security. I believe AI must be built with security and privacy as foundational principles, not as afterthoughts, and I champion that conviction across everything my team delivers. With nearly two decades of experience spanning infrastructure engineering, cloud architecture, security operations, and executive leadership, I bring a rare combination of deep technical capability and strategic vision. My background across senior security leadership roles, including Director of Information Security, Senior Manager of Cyber Security, and Cyber Security Strategy and Architecture consulting, directly shapes how I approach AI risk, responsible use, and secure-by-design engineering. I remain a hands-on technical leader, contributing to system design, architecture, and code whilst simultaneously building and growing a high-performing engineering team.""
   social:
     mastodon: "#"
     bluesky: "#"
@@ -59,9 +59,9 @@
     twitter: "#"
 
 - id: speaker-h
-  name: "Placeholder Speaker H"
-  role: "Community Lead & Panel Moderator"
-  bio: "Placeholder Speaker H facilitates community conversations on compassion in cyber, mentorship, and supporting colleagues through health and personal challenges."
+  name: "Brendan Scarvell"
+  role: "Co-founder & Director, Signal 11"
+  bio: "Brendan is a security researcher and co-founder of Signal 11, with a background spanning web application, network, hardware, and embedded device security. His work focuses on finding and exploiting vulnerabilities in real-world systems, with a particular interest in connected devices and the security risks created when consumer and business infrastructure overlap."
   social:
     mastodon: "#"
     bluesky: "#"

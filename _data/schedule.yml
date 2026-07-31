@@ -1,47 +1,48 @@
 tracks:
   - name: "Main Stage: Full Day Programme"
     sessions:
-      - time: "08:00"
+      - time: "08:15"
         title: "Registration, Badge Pickup & Coffee"
-        description: "Collect your badge, browse sponsor booths, and grab a coffee before the day begins."
+        description: "Collect your badge and grab a coffee before the day begins."
         tag: break
 
       - time: "09:00"
         title: "Welcome to Security2Cure 2026"
-        speaker: "Conference Committee"
-        description: "Opening remarks, acknowledgement of country, charity mission overview, and sponsor thank-yous."
+        speaker: "Keith Howard, Master of Ceremonies"
+        description: "Acknowledgement of country, Housekeeping and Secuirty2Cure Update"
         tag: admin
 
-      - time: "09:20"
-        title: "Keynote: The State of Cyber in 2026"
+      - time: "09:15"
+        title: "Keynote: Dr Donna Spooner"
         speaker_id: speaker-a
-        description: "A look at the trends, threats, and opportunities shaping Australian cyber security this year, from regulation and ransomware to how teams are adapting under pressure."
+        description: "TBA"
         tag: keynote
 
       - time: "10:00"
-        title: "AI-Powered Threats: Separating Hype from Reality"
+        title: "TBA"
         speaker_id: speaker-b
-        description: "Practical guidance on where AI is genuinely changing the threat landscape and where vendor marketing outpaces operational reality."
+        description: "TBA"
         tag: technical
 
-      - time: "10:40"
-        title: "Morning Tea & Sponsor Showcase"
+      - time: "10:45"
+        title: "Morning Tea"
         description: "Network with sponsors and peers. Refreshments provided."
         tag: break
 
-      - time: "11:10"
-        title: "My Story: Cancer, Career, and Carrying On"
+      - time: "11:15"
+        title: "AI: Dont Fear, Don't Revere"
         speaker_id: speaker-c
-        description: "A personal narrative about navigating a cancer diagnosis while leading a security team, and why vulnerability is a strength in both life and leadership."
-        tag: personal
-
-      - time: "11:50"
-        title: "Zero Trust Architecture in the Enterprise"
-        speaker_id: speaker-d
-        description: "Lessons from rolling out zero trust at scale: identity, segmentation, monitoring, and the organisational change required to make it stick."
+        description: "AI: Dont Fear, Don't Revere"
         tag: technical
 
-      - time: "12:30"
+      - time: "12:00"
+        title: "security2cure panel session"
+        speaker_id: panel
+        description: "A number of security professionals will discuss their journey with cancer and how it has affected their lives and how they have maintained their career."
+
+        tag: personal
+
+      - time: "12:45"
         title: "Lunch & Networking"
         description: "Catered lunch with open seating. Sponsors available for demos and conversations."
         tag: break
@@ -70,6 +71,6 @@ tracks:
 
       - time: "16:00"
         title: "Closing Remarks, Raffle & Thank You"
-        speaker: "Conference Committee"
+        speaker: "Keith Howard, Master of Ceremonies"
         description: "Wrap-up, charity update, sponsor acknowledgements, and preview of Security2Cure 2027. Thank you for being part of something bigger."
         tag: admin
