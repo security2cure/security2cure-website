@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Conference Schedule
-subtitle: Security2Cure 2026, Friday 9 October 2026 · Suncorp Group offices, Level 27, 80 Ann Street, Brisbane
+subtitle: Security2Cure 2026, Friday 4 September 2026 · Heritage Lanes, 80 Ann Street, Brisbane
 permalink: /schedule/
 ---
 
