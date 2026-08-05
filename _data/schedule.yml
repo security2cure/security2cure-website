@@ -22,7 +22,7 @@ tracks:
         title: "Detecting Dementia & Alzheimers"
         speaker_id: speaker-a
         description: "TBA"
-        tag: technical
+        tag: health
 
       - time: "10:45"
         title: "Morning Tea"
@@ -39,7 +39,6 @@ tracks:
         title: "security2cure panel session"
         speaker_id: panel
         description: "A number of security professionals will discuss their journey with cancer and how it has affected their lives and how they have maintained their career."
-
         tag: personal
 
       - time: "12:45"
@@ -57,7 +56,7 @@ tracks:
         title: "Adaptive Adversaries: How researchers are learning to outsmart cancer"
         speaker_id: speaker-e
         description: "In this session, Meghan will demystify clinical trials and explain what participation really means, so that if attendees or their loved ones are ever offered a trial, the experience feels informed rather than intimidating. She will explore how advances in genetic and epigenetic science are transforming cancer care, allowing researchers to understand not just where a cancer has developed, but the unique biological code and signals driving it. Meghan will discuss how modern cancer therapies increasingly resemble sophisticated defence systems, from CAR-T cells that are genetically engineered and redeployed like a bespoke threat-response team, to AI-enabled radiation therapy that helps identify patterns and optimise treatment decisions. Just as cybersecurity professionals work to understand evolving threats, vulnerabilities, and defence strategies in the digital world, cancer researchers are learning to decode, monitor, and outsmart an adaptive biological adversary. Clinical trials are where the next generation of these defences is tested, refined, and ultimately brought into clinical practice."
-        tag: medical
+        tag: health
 
 
       - time: "15:00"
