@@ -9,9 +9,9 @@
     twitter: "#"
 
 - id: speaker-b
-  name: "Placeholder Speaker B"
-  role: "Placeholder Security"
-  bio: "Placeholder Speaker B."
+  name: "Dr Kailas Roberts"
+  role: "Consultant Psychiatrist"
+  bio: "Dr Kailas Roberts is a general psychiatrist and psychogeriatrician. He has a special interest in cognitive disorders and dementia assessment and management, though has an extensive experience in treating a range of mental health disorders. He received his medical degree from Leicester University in the UK in 1998. He has trained and worked in the field of psychiatry for over twenty years, both in the UK (London and Wales) and Australia (Canberra and Brisbane). He qualified as a Fellow of the Royal Australian College of Psychiatry in 2009 and obtained a Certificate of Advanced Training in Old Age Psychiatry in 2019.."
   social:
     mastodon: "#"
     bluesky: "#"

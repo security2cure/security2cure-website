@@ -13,14 +13,14 @@ tracks:
         tag: admin
 
       - time: "09:15"
-        title: "Keynote: Dr Donna Spooner"
-        speaker_id: speaker-a
-        description: "TBA"
+        title: "Keynote: Preventative Mesaures for Dementia  & Alzheimers "
+        speaker_id: speaker-b
+        description: "Preventative Mesaures for Dementia  & Alzheimers"
         tag: keynote
 
       - time: "10:00"
-        title: "TBA"
-        speaker_id: speaker-b
+        title: "Detecting Dementia & Alzheimers"
+        speaker_id: speaker-a
         description: "TBA"
         tag: technical
 
