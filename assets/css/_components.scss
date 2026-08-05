@@ -502,6 +502,11 @@
       background: rgba(148, 163, 184, 0.15);
       color: $color-text-muted;
     }
+
+        &--health.is-active {
+      background: rgba(185, 144, 167, 0.15);
+      color: $color-text-muted;
+    }
   }
 
   &__item {
