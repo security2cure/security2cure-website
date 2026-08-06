@@ -19,8 +19,8 @@ tracks:
         tag: keynote
 
       - time: "10:00"
-        title: "Detecting Dementia & Alzheimers"
-        speaker_id: speaker-a
+        title: "How does the mind change as we age - and what can we do to keep it sharp?  "
+        speaker_id: "This session explores the trajectory of cognitive development across the adult lifespan, examining when different cognitive abilities reach their peak and how memory changes through the normal ageing process.  It also highlights practical, evidence-based strategies to strengthen memory, maintain cognitive health, and remain mentally active and engaged in an increasingly AI-driven world. "
         description: "TBA"
         tag: health
 
