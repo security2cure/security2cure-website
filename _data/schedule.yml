@@ -13,9 +13,9 @@ tracks:
         tag: admin
 
       - time: "09:15"
-        title: "Keynote: Preventative Mesaures for Dementia  & Alzheimers "
+        title: "Keynote: Optimising Brainspan: the science and practicalities of good brain health"
         speaker_id: speaker-b
-        description: "Preventative Mesaures for Dementia  & Alzheimers"
+        description: "Dr Kailas Roberts will explore the he mechanisms whereby brain health becomes compromised, and what to do to mitigate the risk of this occurring."
         tag: keynote
 
       - time: "10:00"
